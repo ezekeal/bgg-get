@@ -1,0 +1,15 @@
+{
+  "name": "bgg-get",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Zach Koch",
+  "license": "ISC",
+  "dependencies": {
+    "nets": "^3.2.0",
+    "xml2js": "^0.4.16"
+  }
+}
