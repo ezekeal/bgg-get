@@ -4,7 +4,13 @@ get the data for a list of games from board game geek and export it to a file
 
 ## how to use
 
-create a `bgg.config.js`
+Install globally to use in the command line
+
+```console
+$ npm i -g
+```
+
+create a `bgg.config.js` with a list of board game geek ids
 
 ```javascript
 module.exports = {
@@ -15,8 +21,8 @@ module.exports = {
 }
 ```
 
-then:
+then run in the console
 
 ```console
-$ npm start
+$ bgg-get
 ```
