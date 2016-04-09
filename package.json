@@ -1,12 +1,16 @@
 {
   "name": "bgg-get",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "a cli tool for getting data from the board game geek api",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "author": "Zach Koch",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ezekeal/bgg-get.git"
+  },
   "license": "ISC",
   "dependencies": {
     "nets": "^3.2.0",
