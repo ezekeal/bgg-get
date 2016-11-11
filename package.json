@@ -15,8 +15,6 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.15.2",
-    "minimist": "^1.2.0",
-    "nets": "^3.2.0",
     "xlsx": "^0.8.0",
     "xml2js": "^0.4.16"
   },
