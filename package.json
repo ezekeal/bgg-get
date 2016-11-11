@@ -4,7 +4,8 @@
   "description": "a cli tool for getting data from the board game geek api",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "node bin/index.js ./example/bgg.csv ./example/my-data.json"
   },
   "author": "Zach Koch",
   "repository": {
@@ -13,7 +14,10 @@
   },
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.15.2",
+    "minimist": "^1.2.0",
     "nets": "^3.2.0",
+    "xlsx": "^0.8.0",
     "xml2js": "^0.4.16"
   },
   "bin": "./bin/index.js"
