@@ -4,13 +4,9 @@ const axios = require('axios')
 const baseUrl = 'http://www.boardgamegeek.com/xmlapi2/thing?id='
 
 module.exports = function bggGet (config) {
-  const games = config.map(game => game['Game Name'])
-  console.log('games', games)
+  const games = config.map(game => game['id'])
   const url = `${baseUrl}${games.join(',')}&stats=1`
-  console.log(`
-    requesting from:
-    ${url}
-  `)
+  console.log(`requesting from: ${url}`)
 
   return new Promise((fulfill, reject) => {
     axios.get(url)

@@ -1,11 +1,11 @@
 {
   "name": "bgg-get",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "a cli tool for getting data from the board game geek api",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node bin/index.js ./example/bgg.csv ./example/my-data.json"
+    "test": "node bin/index.js ./example/bgg.xlsx ./example/my-data.json"
   },
   "author": "Zach Koch",
   "repository": {

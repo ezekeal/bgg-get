@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Catan",
+    "published": "1995",
+    "thumbnail": "//cf.geekdo-images.com/images/pic2419375_t.jpg",
+    "image": "//cf.geekdo-images.com/images/pic2419375.jpg",
+    "minPlayers": 3,
+    "maxPlayers": 4,
+    "minPlaytime": 60,
+    "maxPlaytime": 120,
+    "minAge": 10,
+    "description": "In Catan (formerly The Settlers of Catan), players try to be the dominant force on the island of Catan by building settlements, cities, and roads. On each turn dice are rolled to determine what resources the island produces. Players collect these resources (cards)&mdash;wood, grain, brick, sheep, or stone&mdash;to build up their civilizations to get to 10 victory points and win the game.&#10;&#10;Setup includes randomly placing large hexagonal tiles (each showing a resource or the desert) in a honeycomb shape and surrounding them with water tiles, some of which contain ports of exchange. Number disks, which will correspond to die rolls (two 6-sided dice are used), are placed on each resource tile. Each player is given two settlements (think: houses) and roads (sticks) which are, in turn, placed on intersections and borders of the resource tiles. Players collect a hand of resource cards based on which hex tiles their last-placed house is adjacent to. A robber pawn is placed on the desert tile.&#10;&#10;A turn consists of possibly playing a development card, rolling the dice, everyone (perhaps) collecting resource cards based on the roll and position of houses (or upgraded cities&mdash;think: hotels) unless a 7 is rolled, turning in resource cards (if possible and desired) for improvements, trading cards at a port, and trading resource cards with other players. If a 7 is rolled, the active player moves the robber to a new hex tile and steals resource cards from other players who have built structures adjacent to that tile.&#10;&#10;Points are accumulated by building settlements and cities, having the longest road and the largest army (from some of the development cards), and gathering certain development cards that simply award victory points. When a player has gathered 10 points (some of which may be held in secret), he announces his total and claims the win.&#10;&#10;Catan has won multiple awards and is one of the most popular games in recent history due to its amazing ability to appeal to experienced gamers as well as those new to the hobby.&#10;&#10;Die Siedler von Catan was originally published by Kosmos and has gone through multiple editions. It was licensed by Mayfair and has undergone four editions as The Settlers of Catan. In 2015, it was formally renamed Catan to better represent itself as the core and base game of the Catan series. It has been re-published in two travel editions, portable edition and compact edition, as a special gallery edition (replaced in 2009 with a family edition), as an anniversary wooden edition, as a deluxe 3D collector's edition, in the basic Simply Catan, as a beginner version, and with an entirely new theme in Japan and Asia as Settlers of Catan: Rockman Edition. Numerous spin-offs and expansions have also been made for the game.&#10;&#10;The Settlers of Catan is the original game in the Catan Series.&#10;&#10;",
+    "categories": [
+      "Negotiation"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Hand Management",
+      "Modular Board",
+      "Route/Network Building",
+      "Trading"
+    ],
+    "rank": "213",
+    "rating": "7.28535"
+  },
+  {
+    "name": "Wiz-War (eighth edition)",
+    "published": "2012",
+    "thumbnail": "//cf.geekdo-images.com/images/pic1222733_t.jpg",
+    "image": "//cf.geekdo-images.com/images/pic1222733.jpg",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "minPlaytime": 30,
+    "maxPlaytime": 60,
+    "minAge": 14,
+    "description": "Game description from the publisher:&#10;&#10;In Wiz-War, wizards wage no-spells-barred magical duels deep in an underground labyrinth. This classic board game of magical mayhem for 2-4 players, created by Tom Jolly in 1983, pits players' wizards against each other in a stupendous struggle for magical mastery. Win by stealing other wizards' treasures and hauling them back to your base, or just score points by blasting the other wizards. The last wizard standing always wins.&#10;&#10;Staying true to the spirit of the game that has entertained players for years, as well inspiring an entire genre of games, this 2011 edition of Wiz-War caters to the imagination and the funny bone. Casting an enriched array of spells, your wizards race through an underground maze, avoiding fireballs, werewolves, and psychic storms. Subtle game enhancements by Kevin Wilson and Tom Jolly promote faster play and clarify card effects.&#10;&#10;Re-implements:&#10;&#10;    Wiz-War&#10;&#10;&#10;&#10;&#10;(This entry is separate from Wiz-War based on reports from the designer that the new edition has expanded components and significant rules changes; it's also easier to merge two games that are the same than split two games in one listing that turn out to be different.)&#10;&#10;",
+    "categories": [
+      "Fantasy",
+      "Fighting"
+    ],
+    "mechanics": [
+      "Grid Movement",
+      "Hand Management",
+      "Modular Board",
+      "Player Elimination"
+    ],
+    "rank": "482",
+    "rating": "7.14095"
+  },
+  {
+    "name": "Splendor",
+    "published": "2014",
+    "thumbnail": "//cf.geekdo-images.com/images/pic1904079_t.jpg",
+    "image": "//cf.geekdo-images.com/images/pic1904079.jpg",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "minPlaytime": 30,
+    "maxPlaytime": 30,
+    "minAge": 10,
+    "description": "Splendor is a game of chip-collecting and card development. Players are merchants of the Renaissance trying to buy gem mines, means of transportation, shops&mdash;all in order to acquire the most prestige points. If you're wealthy enough, you might even receive a visit from a noble at some point, which of course will further increase your prestige.&#10;&#10;On your turn, you may (1) collect chips (gems), or (2) buy and build a card, or (3) reserve one card. If you collect chips, you take either three different kinds of chips or two chips of the same kind. If you buy a card, you pay its price in chips and add it to your playing area. To reserve a card&mdash;in order to make sure you get it, or, why not, your opponents don't get it&mdash;you place it in front of you face down for later building; this costs you a round, but you also get gold in the form of a joker chip, which you can use as any gem.&#10;&#10;All of the cards you buy increase your wealth as they give you a permanent gem bonus for later buys; some of the cards also give you prestige points. In order to win the game, you must reach 15 prestige points before your opponents do.&#10;&#10;",
+    "categories": [
+      "Card Game",
+      "Economic",
+      "Renaissance"
+    ],
+    "mechanics": [
+      "Card Drafting",
+      "Set Collection"
+    ],
+    "rank": "86",
+    "rating": "7.56148"
+  },
+  {
+    "name": "Terror in Meeple City",
+    "published": "2013",
+    "thumbnail": "//cf.geekdo-images.com/images/pic2482302_t.jpg",
+    "image": "//cf.geekdo-images.com/images/pic2482302.jpg",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "minPlaytime": 45,
+    "maxPlaytime": 45,
+    "minAge": 8,
+    "description": "In Terror in Meeple City (formerly known as Rampage), you arrive in Meeple City as a gigantic, famished, scaly-skinned monster! Your goal: Dig your claws and dirty paws into the asphalt, destroy buildings, and devour innocent meeples &ndash; in short: sow terror while having fun. The monster who has caused the most damage after the carnage finally ends wins the game.&#10;&#10;The buildings in Meeple City are comprised of floor tiles and meeples, with the meeples serving as pillars that support the floors. Four wooden vehicles are on the ground in the eight neighborhoods in the city. Each monster, which consists of a wooden paws disc and a wooden body, starts in one corner of the game board. On a turn you take two actions from four possibilities, repeating an action if desired:&#10;&#10;&#10;    Move: Pick up your monster body, flick the paws disc, then place the body back on the disc.&#10;    Demolish: If your paws are on the sidewalk surrounding a building, you can pick up your monster body, drop it onto a building, then collect any floors that have no meeples on them.&#10;    Toss a vehicle: If you're in a neighborhood with a vehicle, you can pick up the vehicle, place it on your body, then flick the vehicle at a building or another monster.&#10;    Breathe: Even while away from sidewalks with no vehicles, you can cause destruction by placing your chin on your monster's body and blowing across the board.&#10;&#10;&#10;Monsters tend to be messy when obtaining meals, but if you knock meeples off the city board, you might be punished for letting food go to waste, costing you a tooth or letting other players take an additional action. After your two actions, you can eat unprotected meeples on the ground in your neighborhood, but you can eat only as many as the number of teeth you have. If you knock another monster to the ground, you break off one of its teeth, thereby keeping it from stealing your food! Meeples come in six colors, with the colors representing different types of inhabitants: blue (journalists), green (military), yellow (blondes), grey (old people), red (heroes), and black (businessmen). For each set of six you collect in your stomach, you score 10 points at game's end. You score points for collecting floors and teeth, too, and you can also score for achieving the goal on your character card.&#10;&#10;In addition to the character card, each player has a power card and a superpower card unique to his monster, with the former lasting the entire game and the latter being a one-shot effect that's revealed only upon use.&#10;&#10;Terror in Meeple City includes rules for monsters that evolve over the course of the game, that lose points for meeples not in sets, and that want to combine two game boards to allow for play with up to eight players.&#10;&#10;",
+    "categories": [
+      "Action / Dexterity",
+      "Horror"
+    ],
+    "mechanics": [
+      "Area Movement",
+      "Set Collection",
+      "Variable Player Powers"
+    ],
+    "rank": "505",
+    "rating": "6.98888"
+  },
+  {
+    "name": "Small World",
+    "published": "2009",
+    "thumbnail": "//cf.geekdo-images.com/images/pic428828_t.jpg",
+    "image": "//cf.geekdo-images.com/images/pic428828.jpg",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "minPlaytime": 40,
+    "maxPlaytime": 80,
+    "minAge": 8,
+    "description": "In Small World, players vie for conquest and control of a world that is simply too small to accommodate them all.&#10;&#10;Designed by Philippe Keyaerts as a fantasy follow-up to his award-winning Vinci, Small World is inhabited by a zany cast of characters such as dwarves, wizards, amazons, giants, orcs, and even humans, who use their troops to occupy territory and conquer adjacent lands in order to push the other races off the face of the earth.&#10;&#10;Picking the right combination from the 14 different fantasy races and 20 unique special powers, players rush to expand their empires - often at the expense of weaker neighbors. Yet they must also know when to push their own over-extended civilization into decline and ride a new one to victory!&#10;&#10;On each turn, you either use the multiple tiles of your chosen race (type of creatures) to occupy adjacent (normally) territories - possibly defeating weaker enemy races along the way, or you give up on your race letting it go &quot;into decline&quot;. A race in decline is designated by flipping the tiles over to their black-and-white side.&#10;&#10;At the end of your turn, you score one point (coin) for each territory your races occupy. You may have one active race and one race in decline on the board at the same time. Your occupation total can vary depend on the special abilities of your race and the territories they occupy. After the final round, the player with the most coins wins.&#10;&#10;Clarifications: available in a pinned forum post.&#10;&#10;",
+    "categories": [
+      "Fantasy",
+      "Fighting",
+      "Territory Building"
+    ],
+    "mechanics": [
+      "Area Control / Area Influence",
+      "Area Movement",
+      "Dice Rolling",
+      "Variable Player Powers"
+    ],
+    "rank": "139",
+    "rating": "7.37133"
+  }
+]
