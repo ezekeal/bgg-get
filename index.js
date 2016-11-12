@@ -38,8 +38,8 @@ function parseBggData (data) {
       description: description[0],
       categories: getLink(link, 'boardgamecategory'),
       mechanics: getLink(link, 'boardgamemechanic'),
-      rank: statistics[0].ratings[0].ranks[0].rank[0].$.value,
-      rating: statistics[0].ratings[0].average[0].$.value
+      rank: parseInt(statistics[0].ratings[0].ranks[0].rank[0].$.value),
+      rating: parseInt(statistics[0].ratings[0].average[0].$.value)
     }
   })
 }
