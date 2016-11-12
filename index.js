@@ -27,7 +27,7 @@ function parseBggData (data) {
   }) => {
     return {
       name: str(name),
-      published: str(yearpublished),
+      published: num(yearpublished),
       thumbnail: thumbnail[0],
       image: image[0],
       minPlayers: num(minplayers),
