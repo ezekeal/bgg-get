@@ -1,5 +1,7 @@
 const parser = require('xml2js').parseString
 const axios = require('axios')
+const Entities = require('html-entities').AllHtmlEntities
+const entities = new Entities()
 
 const baseUrl = 'http://www.boardgamegeek.com/xmlapi2/thing?id='
 
@@ -34,7 +36,7 @@ function parseBggData (data) {
       maxPlayers: num(maxplayers),
       playtime: getPlaytime(num(minplaytime), num(maxplaytime)),
       minAge: num(minage),
-      description: description[0],
+      description: entities.decode(description[0]),
       categories: getLink(link, 'boardgamecategory')
     }
   })
