@@ -1,6 +1,6 @@
 {
   "name": "bgg-get",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "a cli tool for getting data from the board game geek api",
   "main": "index.js",
   "scripts": {
