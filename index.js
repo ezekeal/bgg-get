@@ -32,14 +32,10 @@ function parseBggData (data) {
       image: image[0],
       minPlayers: num(minplayers),
       maxPlayers: num(maxplayers),
-      minPlaytime: num(minplaytime),
-      maxPlaytime: num(maxplaytime),
+      playtime: getPlaytime(num(minplaytime), num(maxplaytime)),
       minAge: num(minage),
       description: description[0],
-      categories: getLink(link, 'boardgamecategory'),
-      mechanics: getLink(link, 'boardgamemechanic'),
-      rank: parseInt(statistics[0].ratings[0].ranks[0].rank[0].$.value),
-      rating: parseInt(statistics[0].ratings[0].average[0].$.value)
+      categories: getLink(link, 'boardgamecategory')
     }
   })
 }
@@ -56,4 +52,16 @@ function getLink (data, type) {
   return data
     .filter(val => val.$.type === type)
     .map(val => val.$.value)
+}
+
+function getPlaytime (minTime, maxTime) {
+  let avgTime = (minTime + maxTime) / 2
+
+  if (avgTime <= 15) {
+    return 'short'
+  } else if (avgTime <= 60) {
+    return 'medium'
+  } else {
+    return 'long'
+  }
 }
