@@ -5,17 +5,16 @@ const entities = new Entities()
 
 const baseUrl = 'http://www.boardgamegeek.com/xmlapi2/thing?id='
 
-module.exports = function bggGet (config) {
-  const games = config.map(game => game['id'])
-  const url = `${baseUrl}${games.join(',')}&stats=1`
+module.exports = function bggGet (games) {
+  const url = `${baseUrl}${games.join(',')}`
   console.log(`requesting from: ${url}`)
 
-  return new Promise((fulfill, reject) => {
+  return new Promise((resolve, reject) => {
     axios.get(url)
       .then(({data}) => {
         parser(data, (err, json) => {
           if (err) reject(err)
-          else fulfill(parseBggData(json))
+          else resolve(parseBggData(json))
         })
       })
   })
@@ -25,7 +24,7 @@ function parseBggData (data) {
   var games = data.items.item
   return games.map(({
     name, yearpublished, thumbnail, image, minplayers, maxplayers,
-    minplaytime, maxplaytime, minage, description, link, statistics
+    minplaytime, maxplaytime, minage, description, link
   }) => {
     return {
       name: str(name),
