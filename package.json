@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node bin/index.js --sheet='Sheet1' --column='id' --src=./example/bgg.xlsx --out=./example/my-data.json"
+    "test": "node bin/index.js --debug --sheet='Master List v1' --column='BGG Number' --src=./example/bgg.xlsx --out=./example/my-data.json"
   },
   "author": "Zach Koch",
   "repository": {
