@@ -1,5 +1,7 @@
 # bgg-get
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ezekeal/bgg-get.svg)](https://greenkeeper.io/)
+
 get the data for a list of games from board game geek and export it to a json file
 
 ## how to use
